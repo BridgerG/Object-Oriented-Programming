@@ -11,14 +11,16 @@ It currently looks like this so make sure you delete the text inside.
 After that you run the file called CookBookAction.java and enter in the name of your account and follow the prompts and it will do the rest itself.
 
 ## Code That checks for a files existence and changes prompts for the lack of info in them
-				if (account.getListLengthBase() == 0) {
-				
-					System.out.print("What would you like your first section of your cookbook to be called? ");
-					name = scan.nextLine();
-					account.additionBase(name);
-					continue;
-				
-				}
+'''
 
+	if (account.getListLengthBase() == 0) {
+	
+      		System.out.print("What would you like your first section of your cookbook to be called? ")
+     		name = scan.nextLine();
+		account.additionBase(name);
+		continue;
+	}
+ 
+'''
 ## Credits
 Bridger Griffiths
